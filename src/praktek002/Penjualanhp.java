@@ -4,6 +4,11 @@ package praktek002;
 public class Penjualanhp {
     Integer hargahp;
     Integer jumlahbarang;
+
+    public Penjualanhp() {
+    hargahp=1000000;
+    jumlahbarang=10;
+    }
     
     void cetakInfo(){
         System.out.println("=======================");
@@ -16,8 +21,7 @@ public class Penjualanhp {
         total=hargahp*jumlahbarang;
         return total;
     }
-
-    String total() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    void cetaktotal(){
+        System.out.println("totalnya adalah: "+hitungtotal());
     }
 }
