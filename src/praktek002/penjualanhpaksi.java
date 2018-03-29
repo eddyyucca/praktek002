@@ -9,6 +9,9 @@ public class penjualanhpaksi {
        r1.hargahp = 1000000;
        r1.jumlahbarang = 10;
        
+       r1.cetakInfo();
+       
+        
     }
   
 }
