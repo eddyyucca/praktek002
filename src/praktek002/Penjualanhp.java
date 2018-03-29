@@ -6,8 +6,13 @@ public class Penjualanhp {
     Integer jumlahbarang;
 
     public Penjualanhp()  {
-    hargahp=1000000;
+    hargahp=2000000;
     jumlahbarang=10; 
+    }
+
+    public Penjualanhp(Integer hargahp, Integer jumlahbarang) {
+        this.hargahp = hargahp;
+        this.jumlahbarang = jumlahbarang;
     }
     
     void cetakInfo(){

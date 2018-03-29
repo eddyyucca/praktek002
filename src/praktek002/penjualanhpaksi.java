@@ -12,6 +12,12 @@ public class penjualanhpaksi {
        r1.cetakInfo();
        System.out.println("total = "+r1.hitungtotal());
        r1.cetaktotal();
+       
+       Penjualanhp r2 = new Penjualanhp();
+       r2.cetakInfo();
+       
+       Penjualanhp r3 = new Penjualanhp(3000000,30);
+       r3.cetakInfo();
     }
   
 }
