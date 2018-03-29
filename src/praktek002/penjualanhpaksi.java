@@ -10,8 +10,7 @@ public class penjualanhpaksi {
        r1.jumlahbarang = 10;
        
        r1.cetakInfo();
-       
-        
-    }
+       System.out.println("total = "+r1.hitungtotal());
+       }
   
 }
