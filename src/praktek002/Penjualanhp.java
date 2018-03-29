@@ -5,9 +5,9 @@ public class Penjualanhp {
     Integer hargahp;
     Integer jumlahbarang;
 
-    public Penjualanhp() {
+    public Penjualanhp()  {
     hargahp=1000000;
-    jumlahbarang=10;
+    jumlahbarang=10; 
     }
     
     void cetakInfo(){
